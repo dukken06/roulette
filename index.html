@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roulette</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-10/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-10/css/8-10.css">
+  <script src="./scripts/roulette.js" defer></script>
+</head>
+<body>
+  <header class="flex h-[60px] items-center bg-[#EFEFEF] fixed top-0 left-0 right-0">
+    <div class="">
+      <img src="./img/udemy.com_logo.png" alt="" class="h-[40px]">
+    </div>
+    <h1 class="font-bold">Udemy Roulette</h1>
+  </header>
+  <main class="mt-[60px] text-center">
+    <button class="mt-[60px] h-[40px] w-[160px] text-center bg-[#D9D1C1] font-bold inline-block rounded-[5px] hover:bg-[#D2B48C]">
+      Roulette Start
+    </button>
+    <h3 class="my-[40px] font-bold">
+      Today's Lesson is ...
+    </h3>
+    <div id="answer">
+      <h2 class="text-[#D9D1C1] font-bold text-[40px]"></h2>
+      <p class="text-[#D2B48C] font-bold text-[15px] m-[20px]"></p>
+    </div>
+  </main>
+</body>
+</html>
